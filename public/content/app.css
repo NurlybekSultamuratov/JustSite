@@ -1,0 +1,50 @@
+.good li a
+{
+  text-decoration: none;
+  color: #f0f0f3;
+  border-radius: 3px;
+font-size: 17px;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+.good li:hover a 
+{
+  background: #052633;
+  text-decoration: none;
+  color: #f9f7a4;
+  border-radius: 3px;
+}
+
+.h 
+{
+  background: #073346;
+  padding: 20px 0;
+}
+
+.st 
+{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.beversion 
+{
+
+  display: inline-block;
+}
+
+@media (min-width: 992px) 
+{   
+  .list, .list li, .list li a
+  {
+  display: inline-block;
+  float: right;
+  margin-left: 20px;
+  padding: 10px;
+  }
+}
+   
+ 
+   
+  
